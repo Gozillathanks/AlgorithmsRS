@@ -13,7 +13,6 @@ public class Hehe {
                        "\nAreYouCrazy(" + name + ")? " + AreYouCrazy(name) +
                        "!");
 
-    System.out.println("\nWhat do you think?");
 
   }
 
