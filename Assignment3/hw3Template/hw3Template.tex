@@ -10,16 +10,12 @@
 
 \subsection*{\underline{Written Assignments}}
 \begin{enumerate}[1.]
-\item Elementary sorts
+\item Symbol Tables
 \begin{enumerate}[a)]
-\item Sort the sequence I, L, O, V, E, A, L, G, O, R, I, T, H, M, S using the following sorting methods. Show trace after each iteration of the outer loop. Also, compare the best, worst, and average case for these algorithms.
-\begin{enumerate}[a.]
-\item Insertion sort
-\item Selection sort
-\item Bubble sort
-\end{enumerate}
+\item Give a trace of the process of inserting E A S Y Q U E S T I O N into an initially empty table using SequentialSearchST. How many compares are involved?
+
 \begin{mdframed}
-\textbf{Solution:} 
+\textbf{Solution:}
 % Solution here
 \begin{enumerate}[a.]
 \item
@@ -28,18 +24,7 @@
 \end{enumerate}
 \end{mdframed}
 
-\item Show in the style of the example , how shell sorts the E, A, S, Y, S, H, E, L, L, S, O, R, T, Q, U, E, S, T, I, O, N
-\begin{mdframed}
-\textbf{Solution:} \\
-% Solution here
-Solution?
-\end{mdframed}
-
-\item Given traces, showing how I, L, O, V, E, A, L, G, O, R, I, T, H, M, S are sorted for following mergesort algorithms:
-\begin{enumerate}[a.]
-\item Top-down mergesort
-\item Bottom-up mergesort
-\end{enumerate}
+\item Give a trace of the process of inserting keys E A S Y Q U E S T I O N into an initially empty table using BinarySearchST. How many compares are involved?
 \begin{mdframed}
 \textbf{Solution:} \\
 % Solution here
@@ -51,10 +36,20 @@ Solution?
 
 %%%% Problem 2 %%%%
 
-\item Quicksort
-\begin{enumerate}[1)]
-\item Show how method partitions I, L, O, V, E, A, L, G, O, R, I, T, H, M, S
-\item Show how quicksort sorts I, L, O, V, E, A, L, G, O, R, I, T, H, M, S(ignore the initial shuffle.) Compare the best, worst, and average case.
+\item Binary Search Tree
+\begin{enumerate}[a)]
+\item Draw the $BST$ that results when inserting M I D T E R M Q U E S T I O N into initially empty tree. How many compares are needed to build the tree?
+\item Draw the sequence of BSTs when deleting keys from the tree in question 2.a in the order they were inserted.
+\item Draw the sequence of BSTs when deleting keys from the tree in question 2.a in alphabetical order.
+\item Draw the sequence of BSTs when deleting keys from the tree in question 2.a by successively deleting the key at the root.
+\item Give the sequences of nodes examined when the methods in BST are used to compute each of the following quantities for the tree in question 2.a
+\begin{enumerate}[a.]
+\item floor("P"
+\item select(5)
+\item ceiling("V")
+\item rank("S")
+\end{enumerate}
+
 \end{enumerate}
 
 \begin{mdframed}
@@ -66,9 +61,48 @@ Solution?
 
 %%%% Problem 3 %%%%
 
-\item Priority Queues
+\item 2-3 Trees
 \begin{enumerate}[1)]
-\item Suppose that the P R I O * R * * I * T * Y * * * Q U E * * * U * E * (where a letter means insert and an asterisk means remove the maximum) is an initially empty priority queue. \textbf{Give the sequence of heaps} and the sequence letters returned by \textit{remove the maximum operations}.
+\item Draw the 2-3 tree that results when you insert E A S Y Q U E S T I O N in that order into an initially empty tree.
+\item Draw the 2-3 tree that results when you insert Y L P M X H C R A E S T B C A in that order into an initially empty tree.
+\end{enumerate}
+
+
+
+\begin{mdframed}
+\textbf{Solution:} \\
+% Solution here
+P \\
+P-R\\
+
+\end{mdframed}
+
+%%%% Problem 4 %%%%
+
+
+\item Red-Black Trees
+Use LLRB trees for problem below:
+\begin{enumerate}[1)]
+\item Draw the red-black tree that results when you insert E A S Y Q U E S T I O N in that order into an initially empty tree.
+\item Draw the red-black tree that results when you insert Y L P M X H C R A E S T B C A in that order into an initially empty tree.
+\end{enumerate}
+
+
+
+\begin{mdframed}
+\textbf{Solution:} \\
+% Solution here
+P \\
+P-R\\
+
+\end{mdframed}
+
+%%%% Problem 5 %%%%
+
+\item Hashing
+\begin{enumerate}[1)]
+\item Insert E X A M Q U E S T I O N into an initially empty empty table of $M=5$ lists,
+\item Draw the 2-3 tree that results when you insert Y L P M X H C R A E S T B C A in that order into an initially empty tree.
 \end{enumerate}
 
 \end{enumerate}
@@ -80,6 +114,5 @@ P \\
 P-R\\
 
 \end{mdframed}
-
 
 \end{document}
