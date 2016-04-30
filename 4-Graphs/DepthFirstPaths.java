@@ -4,7 +4,7 @@ public class DepthFirstPaths {
   private int s;
 
   public DepthFirstPaths(Graph G, int s) {
-
+      // initialize data structures
       dfs(G, s);
   }
 
